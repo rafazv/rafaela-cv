@@ -1,0 +1,57 @@
+// Reset brings sanity when dealing with cross-browser style inconsistencies
+@import "reset";
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import "~@angular/material/theming";
+
+// Plus imports for other components in your app.
+@import "theme";
+
+@import "variables";
+
+@font-face {
+  font-family: "Lato-bold";
+  font-weight: 400;
+  src: url("./fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-light";
+  font-weight: 400;
+  src: url("./fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-regular";
+  font-weight: 400;
+  src: url("./fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-light";
+  font-weight: 400;
+  src: url("./fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  font-weight: 400;
+  src: url("./fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  font-weight: 400;
+  src: url("./fonts/Montserrat-Regular.ttf");
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: $color-brand-secondary-lighter;
+}
