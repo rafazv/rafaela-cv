@@ -1,0 +1,56 @@
+@import "variables";
+
+.menu-header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: $color-brand-primary;
+
+  button {
+    text-transform: uppercase;
+    font-size: $s16;
+    color: $color-brand-secondary-lighter;
+    font-family: 'Montserrat-regular';
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    padding: 0 20px;
+  }
+
+  button:hover {
+    background-color: $color-brand-primary-light;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  font-size: $s14;
+  background-color: $color-brand-primary;
+  color: $color-brand-secondary-lighter;
+  font-family: 'Montserrat-regular';
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .contact-container {
+    display: flex;
+
+    div {
+      display: flex;
+      align-items: center;
+  
+      p {
+        margin: 0 25px 0 5px;
+      }
+    }
+  }
+
+  img {
+    width: 25px;
+  }
+}
